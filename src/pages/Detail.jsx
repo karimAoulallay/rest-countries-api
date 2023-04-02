@@ -7,8 +7,6 @@ const Detail = () => {
   const { name, id } = useParams();
   let country;
 
-  console.log(id);
-
   useEffect(() => {
     fetch("data.json")
       .then((response) => response.json())

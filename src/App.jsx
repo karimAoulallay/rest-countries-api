@@ -1,18 +1,18 @@
-import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Detail from "./pages/Detail";
 import Home from "./pages/Home";
 import { Layout } from "./components/Layout";
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <Routes>
         <Route path="/rest-countries-api" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path=":name" element={<Detail />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 

@@ -20,12 +20,5 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-    <script>
-      // Configure custom 404 page
-      if (window.location.pathname.startsWith("/my-react-app/")) {
-        document.getElementsByTagName("head")[0].innerHTML +=
-          '<meta http-equiv="refresh" content="0; url=/my-react-app/404.html">';
-      }
-    </script>
   </body>
 </html>
