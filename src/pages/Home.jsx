@@ -59,6 +59,7 @@ const Home = () => {
         >
           <button className="h-full px-4 scale-125">
             <i className="bx bx-search-alt-2"></i>
+            <span className="sr-only">search icon</span>
           </button>
           <input
             onChange={handleSearchName}
