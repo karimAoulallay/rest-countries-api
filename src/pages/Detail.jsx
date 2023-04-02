@@ -4,8 +4,10 @@ import Loading from "../components/Loading";
 
 const Detail = () => {
   const [data, setData] = useState(null);
-  const { name } = useParams();
+  const { name, id } = useParams();
   let country;
+
+  console.log(id);
 
   useEffect(() => {
     fetch("data.json")
