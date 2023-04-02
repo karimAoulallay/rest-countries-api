@@ -2,6 +2,7 @@
   "name": "rest-countries-api",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://karimaoulallay.github.io/rest-countries-api",
   "type": "module",
   "scripts": {
     "dev": "vite",
