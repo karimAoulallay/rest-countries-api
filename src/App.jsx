@@ -5,7 +5,7 @@ import { Layout } from "./components/Layout";
 
 function App() {
   return (
-    <Router basename="/res-countries-api">
+    <Router>
       <Routes>
         <Route path="/rest-countries-api" element={<Layout />}>
           <Route index element={<Home />} />
