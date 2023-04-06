@@ -1,8 +1,8 @@
 {
   "name": "rest-countries-api",
   "private": true,
-  "version": "0.0.0",
   "homepage": "/rest-countries-api/#",
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Country from "../components/Country";
 import Loading from "../components/Loading";
+import { useSearchParams } from "react-router-dom";
 
 const Home = () => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -8,6 +9,7 @@ const Home = () => {
   const [region, setRegion] = useState(null);
   const [name, setName] = useState("");
   const [searchName, setSearchName] = useState("");
+  // const [searchParams, setSearchParams] = useSearchParams();
 
   useEffect(() => {
     fetchData(region, name);
